@@ -5,8 +5,13 @@ spring:
     config:
         activate:
             on-profile: prod
+            
+my:
+   hostName: Ana
+   myclass: 4
   
 ---
+
 server:
   port: 8282
   
@@ -14,8 +19,13 @@ spring:
     config:
         activate:
             on-profile: prod
-
+            
+my:
+   hostName: Ela
+   myclass: 8
+   
 ---
+
 server:
   port: 8282
   
@@ -23,3 +33,7 @@ spring:
     config:
         activate:
             on-profile: dev
+            
+my:
+   hostName: Elena
+   myclass: 12
