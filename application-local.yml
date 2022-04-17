@@ -1,2 +1,3 @@
 my:
-  name: local 
+  greeting: Hello from local
+  name: Dany
