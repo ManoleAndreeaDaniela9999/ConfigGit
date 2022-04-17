@@ -1,16 +1,25 @@
 server:
   port: 8282
-  
+
 spring:
-  profiles:
-    active: dev
+    config:
+        activate:
+            on-profile: prod
   
 ---
-
+server:
+  port: 8282
+  
 spring:
-  profiles: dev
+    config:
+        activate:
+            on-profile: prod
 
 ---
-
+server:
+  port: 8282
+  
 spring:
-  profiles: prod
+    config:
+        activate:
+            on-profile: dev
