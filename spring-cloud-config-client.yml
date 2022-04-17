@@ -1,4 +1,3 @@
-my:
-  greeting: Hello from dev!
-  list:
-      values: one, two, three, four
+spring:
+  profiles:
+    active: dev
