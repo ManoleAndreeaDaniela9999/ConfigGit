@@ -6,9 +6,7 @@ spring:
         activate:
             on-profile: prod
             
-my:
-   hostName: Ana
-   myclass: 4
+value: 10
   
 ---
 
@@ -20,9 +18,7 @@ spring:
         activate:
             on-profile: prod
             
-my:
-   hostName: Ela
-   myclass: 8
+value: 20
    
 ---
 
@@ -34,6 +30,4 @@ spring:
         activate:
             on-profile: dev
             
-my:
-   hostName: Elena
-   myclass: 12
+value: 30
