@@ -9,12 +9,8 @@ spring:
 
 spring:
   profiles: dev
-server:
-  port: 8281
 
 ---
 
 spring:
   profiles: prod
-server:
-  port: 8280
