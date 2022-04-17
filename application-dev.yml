@@ -1,4 +1,4 @@
 my:
-  greeting: Hello world!
+  greeting: Hello from dev!
   list:
       values: one, two, three, four
