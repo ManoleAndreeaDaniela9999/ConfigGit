@@ -1,0 +1,6 @@
+server:
+  port: 8031
+spring:
+    config:
+        activate:
+            on-profile: default
