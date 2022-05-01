@@ -4,3 +4,12 @@ spring:
     config:
         activate:
             on-profile: default
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:3000/eureka}
+  instance:
+    preferIpAddress: true
